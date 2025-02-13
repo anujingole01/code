@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind css play with cli</title>
+    <link rel="stylesheet" href="output.css">
+
+</head>
+<body>
+    <h2 class="text-3xl bg-amber-50 font-black ">Hey, ANUJ 😉</h2> 
+    <div class="w-1/2 h-40 bg-blue-400 text-white flex justify-center items-center">set width</div>
+    <div class="hidden md:block"> This is hiddenbuy visible on medium screen</div>
+    <div class="container mx-auto px-4 bg-gray-500">Tailwind container example</div>
+
+
+<img src="C:\Users\ASUS\OneDrive\Desktop\Folders\image.jpg" alt="floating element" class="float-right w-32 h-320">
+<p class="clear-both">this texts clear the float and move below the element</p>
+<img src="C:\Users\ASUS\OneDrive\Desktop\Folders\image.jpg" alt="floating element" class="float-right w-32 h-320">
+<div class="relative top-4 left-4 bg-blue-600">Parent Position</div>
+<div class="absolute top-2 right-2 bg-red-500">1</div>
+
+<div class="flex justify-center h-20 bg-blue-500 text-white">
+    <div>Logo </div>
+    <div> Menu </div>
+</div>
+<div class="grid grid-cols-3">
+<div class="bg-red-600">1</div>
+<div class="bg-amber-900">2</div>
+<div class="bg-gray-600">3</div>
+<div class="bg-purple-700">4</div>
+<div class="bg-amber-300">5</div>
+<div class="bg-orange-500">6</div>
+<div class="bg-pink-300">7</div>
+<div class="bg-blue-300">8</div>
+</div>
+
+
+</body>
+</html>
